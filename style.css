@@ -1,0 +1,828 @@
+body button:hover{
+    background-color: rgb(0, 238, 255);
+}
+
+
+/*Panel Start*/
+.panel{
+    background-image: linear-gradient(purple, rgb(0, 255, 34));
+    color: white;
+    height: 40px;
+}
+
+.panel a{
+    color: white;
+}
+
+.panel button{
+    background-color: white;
+    position: relative;
+    top: -5px;
+    color: black;
+}
+/*Panel End*/
+
+/*Header Start*/
+
+.top{
+    background-color: rgb(58, 56, 56);
+    display: block;   
+}
+.header a{
+    color: white;
+}
+
+.header h6:hover {
+    color: rgb(6, 179, 248);
+}
+
+.header a:hover{
+    color: green;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+    background-image: linear-gradient(rgb(0, 238, 255), pink);
+}
+
+.header button{
+    background-color: blue;
+    border-radius: 25px;
+}
+/*Header End*/
+
+/*Banner Start*/
+.banner{
+    background-color: rgb(58, 56, 56);
+    text-align: center;
+}
+
+.banner h6{
+    color:rgb(0, 238, 255);
+    font-weight: 900;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.banner h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    font-style: oblique;
+    padding-bottom: 40px;
+}
+
+.banner p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.banner img{
+    position: relative;
+    bottom: -100px;
+}
+/*Banner End*/
+
+/*Text Area start*/
+.about{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.about h6{
+    color: aqua;
+    font-weight: 800;
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+
+.about h3{
+    color: rgb(39, 34, 34);
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.about p{
+    color: gray;
+    font-size: 20px;
+}
+
+.about button{
+    background-color: blue;
+    color: white;
+    border: 0px;
+    border-radius: 25px;
+    font-weight: 500;
+    height: 1.5cm;
+    width: 3.5cm;
+}
+/*Text Area End*/
+
+/*Achievement Start*/
+.award{
+    margin-top: 80px;
+}
+
+.award h6{
+    color: rgb(61, 137, 167);
+    font-weight: 800;
+    padding-bottom: 15px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.award h3{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.award p{
+    color: gray;
+    font-size: 20px;
+}
+
+.award ul{
+    color: gray;
+    list-style: none;
+}
+/*Achievement End*/
+
+/*Mission & Vision Start*/
+.mission{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.mission h6{
+    color: rgb(40, 125, 158);
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.mission h3{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.mission p{
+    color: gray;
+    font-size: 20px;
+}
+
+.quote{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.quote p{
+    color: blue;
+    border-left: 5px solid blue;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.staff img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+/*Mission & Vision End*/
+
+/*What We Offer*/
+.service{
+    text-align: center;
+}
+
+.service h6{
+    color: rgb(88, 193, 235);
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.service h3{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.service p{
+    color: gray;
+    font-size: 20px;
+}
+
+.content{
+    margin-top: 10px;
+}
+
+.content h3{
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: left;
+}
+
+.content p{
+    color: gray;
+    text-align: justify;
+}
+/*What we Offer*/
+
+/*Recent Project Start*/
+.project{
+    margin-top: 50px;
+    background-color: rgb(37, 42, 53);
+    text-align: center;
+}
+
+.project h6{
+    color: rgb(88, 193, 235);
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.project h3{
+    color: rgb(252, 250, 250);
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.project p{
+    color: gray;
+    font-size: 20px;
+}
+
+.project button{
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    height: 1.5cm;
+    width: 4cm;
+    border: 0px;
+}
+/*Recent Project Start*/
+
+/*Our Awards Start*/
+.our-awards{
+    margin-top: 50px;
+}
+
+.our-awards h6{
+    color: rgb(88, 193, 235);
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.our-awards h3{
+    color: black;
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.our-awards p{
+    color: gray;
+    font-size: 25px;
+}
+
+.collection{
+    background-color: whitesmoke;
+}
+
+.collection h6{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 80px;
+}
+
+.collection p{
+    color: gray;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+.collection h1{
+    color: skyblue;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    position: relative;
+    bottom: -28px;
+}
+/*Our Awards End*/
+
+/*text area II start*/
+.more-about-us{
+    margin-top: 50px;
+}
+
+.more-about-us h5{
+    text-align: justify;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.more-about-us p{
+    color: gray;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.more-about-us button{
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    height: 1.5cm;
+    width: 4cm;
+    border: 0px;
+    margin-top: 10px;
+}
+/*Text Area II End*/
+
+/*Text Area III start*/
+.xyz{
+    padding-top: 50px;
+}
+
+.xyz h5{
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.xyz p{
+    color: gray;
+    font-size: 15px;
+}
+
+.xyz img{
+    height: 406;
+    width: 100%;
+}
+/*Text Area III End*/
+
+/*Banner II Start*/
+.discuss{
+    margin-top: 60px;
+    background-image: linear-gradient(rgb(4, 179, 248), red);
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.discuss h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.discuss p{
+    color: rgb(247, 241, 241);
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.discuss button{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 25px;
+    border: 0px;
+    height: 1.2cm;
+    width: 3.5cm;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+
+.brdr{
+    border-left: 5px solid white;
+    margin-left: 100px;
+}
+/*Banner II End*/
+
+/*Our Features Start*/
+.features{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.features h6{
+    color: rgb(0, 238, 255);
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+.features h4{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.feat-img img{
+    height: 100px;
+    width: 100px;
+}
+/*Our Features End*/
+
+/*Our Technology Start*/
+.technology h6{
+        color: rgb(0, 238, 255);
+        font-weight: 700;
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding-top: 30px;
+}
+    
+.technology h4{
+        font-weight: bold;
+        font-size: 30px;
+}
+
+.technology p{
+    color: gray;
+}
+/*Our Technology End*/
+
+/*Counter Start*/
+.counter{
+    margin-top: 80px;
+    background-color: rgb(44, 40, 40);
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.counter p{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.counter h1{
+    color: rgb(3, 180, 250);
+    font-weight: bolder;
+    font-size: 40px;
+}
+/*Counter End*/
+
+/*Our Tips Start*/
+.tips{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tips h6{
+    color: rgb(88, 193, 235);
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.tips h3{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.tips h5{
+    color: rgb(2, 2, 48);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+.tips p{
+    color: gray;
+    text-align: justify;
+}
+/*Our Tips End*/
+
+/*Reviews Section Start*/
+.reviews{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.reviews h6{
+    color: rgb(4, 181, 252);
+    font-size: 50px;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.reviews h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.comments{
+    margin-top: 20px;
+    background-color:lightgreen;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.comments h1{
+    font-weight:bold ;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.comments img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: right;
+}
+
+.comments p{
+    color: gray;
+}
+/*Reviews Section End*/
+
+/*Pricing Plan Start*/
+.pricing{
+    background-color: rgb(58, 56, 56);
+    margin-top: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.pricing h1{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: -100px;
+}
+
+/*Free Pack Start*/
+.free{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    right: -50px;
+    bottom: -250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.free h4{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.free h2{
+    color: rgb(3, 180, 250);
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.free p{
+    color: gray;
+    font-size: 20px;
+}
+
+.free button{
+    height: 1.5cm;
+    width: 4cm;
+    border-radius: 25px;
+    background-color: rgb(4, 97, 139);
+    color: white;
+    border: 0px;
+    margin-top: 30px;
+}
+/*Free Pack End*/
+
+/*Standard Packs Start*/
+.standard{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: -195px;
+}
+
+.standard h4{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.standard h2{
+    color: white;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.standard p{
+    color: gray;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.color{
+    background-color: rgb(4, 181, 252);
+}
+
+.standard button{
+    height: 1.5cm;
+    width: 4cm;
+    border-radius: 25px;
+    background-color: rgb(4, 97, 139);
+    color: white;
+    border: 0px;
+    margin-top: 30px;
+}
+/*Standard Packs End*/
+
+/*Pro Plans Start*/
+.pro{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    left: -30px;
+    bottom: -250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pro h4{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.pro h2{
+    color: rgb(3, 180, 250);
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.pro p{
+    color: gray;
+    font-size: 20px;
+}
+
+.pro button{
+    height: 1.5cm;
+    width: 4cm;
+    border-radius: 25px;
+    background-color: rgb(4, 97, 139);
+    color: white;
+    border: 0px;
+    margin-top: 30px;
+}
+/*Pro Plan End*/
+/*Pricing Plan End*/
+
+/*Faq section start*/
+.faq{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.faq h6{
+    color: rgb(5, 182, 252);
+    font-weight: 800;
+    padding-bottom: 15px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.faq h3{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.faq p{
+    color: gray;
+    font-size: 20px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.faq li{
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+}
+/*Faq section end*/
+
+/*Contact Us Start*/
+.contact{
+    margin-top: 100px;
+}
+
+.contact h6{
+    color: rgb(61, 137, 167);
+    font-weight: 800;
+    padding-bottom: 15px;
+    font-size: 20px;
+    padding-top: 80px;
+}
+.contact h3{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.contact p{
+    color: gray;
+    font-size: 20px;
+}
+
+.contact button{
+    background-color: blue;
+    color: white;
+    height: 1cm;
+    width: 3cm;
+    border-radius: 25px;
+    border: 0px;
+}
+/*Contact Us End*/
+
+.banner-buttom{
+    margin-top: 100px;
+    height: 150px;
+    width: 100%;
+}
+
+/*Sight Footer Start*/
+.footer{
+    background-color: rgb(58, 56, 56);
+    text-align: center;
+}
+
+.footer h6{
+    color:rgb(0, 238, 255);
+    font-weight: 900;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.footer h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    font-style: oblique;
+    padding-bottom: 40px;
+}
+
+.footer p{
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer button{
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    height: 1.5cm;
+    width: 4cm;
+    border: 0px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.bottom{
+    margin-top: 100px;
+    border-top: 1px solid gray;
+}
+
+.bottom a{
+    color: gray;
+}
+/*Footer End*/
